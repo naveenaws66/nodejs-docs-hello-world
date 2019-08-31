@@ -7,7 +7,7 @@
     "author": "Microsoft",
     "scripts": {
         "start": "node index.js",
-        "test": "mocha '.\\tests\\test.js' --recursive--timeout 10000 --reporter mocha-junit-reporter --reporter-options mochaFile=./tests/test-result.xml"
+        "test": "mocha --recursive--timeout 10000 --reporter mocha-junit-reporter --reporter-options mochaFile=./tests/test-result.xml"
     },
     "dependencies": {
         "chai": "^4.2.0",
